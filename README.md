@@ -1,2 +1,2 @@
-# Tkinter
-Some practice about Python Tkinter module
+# Python GUI
+Some practice about Python GUI practice
