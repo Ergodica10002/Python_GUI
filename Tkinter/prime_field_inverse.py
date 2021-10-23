@@ -45,10 +45,10 @@ field_label.pack(side=tk.LEFT)
 field_entry = tk.Entry(field_frame)
 field_entry.pack(side=tk.LEFT)
 
-result_label = tk.Label(window)
-result_label.pack()
-
 calculate_btn = tk.Button(window, text="Go", command=calculate_inverse)
 calculate_btn.pack()
+
+result_label = tk.Label(window, text = '')
+result_label.pack()
 
 window.mainloop()
